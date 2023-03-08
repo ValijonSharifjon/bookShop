@@ -31,7 +31,7 @@ const Card=({book,loading})=>{
               )
             }
             else return <></>
-          }):<span>Loading...</span>
+          }):<span><div class="lds-spinner"><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div></div></span>
         }
       </>
         
